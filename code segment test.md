@@ -1,4 +1,4 @@
-# 读取wav文件
+#读取wav文件
 
 ```python
 from scipy.io import wavfile
