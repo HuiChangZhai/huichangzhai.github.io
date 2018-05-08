@@ -33,7 +33,7 @@ plt.show()
 ![wav_plot](/images/wav_plot.png)
    
 稍加处理   
-![wav_plot_200](../images/wav_plot_200.png)
+![wav_plot_200](/images/wav_plot_200.png)
 
 
 保存声音波形图片
@@ -112,7 +112,7 @@ plt.title('Mel spectrogram')
 plt.tight_layout()
 plt.show()
 ```
-![Melspectrogram](../images/melspectrogram.png)
+![Melspectrogram](/images/melspectrogram.png)
 
 MFCC
 ```python
@@ -131,5 +131,5 @@ plt.title('MFCC')
 plt.tight_layout()
 plt.show()
 ```
-![Mfcc](../images/mfcc.png)
+![Mfcc](/images/mfcc.png)
 AFTE 特征
