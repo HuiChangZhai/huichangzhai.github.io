@@ -31,7 +31,8 @@ plt.plot(np.arange(start=start, stop=stop), signal[start:stop])
 plt.show()
 ```
 ![File](wav_plot.png)
-稍加处理
+   
+稍加处理   
 ![File](wav_plot_200.png)
 
 
