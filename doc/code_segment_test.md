@@ -44,6 +44,7 @@ gcf.set_size_inches(width / dpi, height / dpi)
 ```
 
 可以通过以下代码获取声谱图
+
 ```python
 import scipy
 import matplotlib.pyplot as plt
@@ -75,6 +76,7 @@ np.load(filename) #加载fft特征文件
 >pip install scikits.talkbox
 >
 >*安装失败*   
+
 ```python
 from scikits.talkbox.features import mfcc
 
