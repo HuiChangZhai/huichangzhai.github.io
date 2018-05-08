@@ -87,7 +87,7 @@ np.save(data_filename, ceps)
 print(" Written %s" % data_filename)
 ```
 转战librosa
->pip install librosa
+:pip install librosa
 ```python
 import librosa
 
