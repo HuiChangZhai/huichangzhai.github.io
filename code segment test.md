@@ -31,6 +31,9 @@ plt.plot(np.arange(start=start, stop=stop), signal[start:stop])
 plt.show()
 ```
 ![File](wav_plot.png)
+稍加处理
+![File](wav_plot_200.png)
+
 
 保存声音波形图片
 ```python
