@@ -30,10 +30,10 @@ plt.plot(np.arange(start=start, stop=stop), signal[start:stop])
 #plt.savefig(filename, dpi=dpi) #保存图片
 plt.show()
 ```
-![File](wav_plot.png)
+![wav_plot](../images/wav_plot.png)
    
 稍加处理   
-![File](wav_plot_200.png)
+![wav_plot_200](../images/wav_plot_200.png)
 
 
 保存声音波形图片
@@ -56,7 +56,7 @@ if signal.ndim > 1:
 plt.specgram(signal, Fs=rate, xextent=(0, 30)) #前30秒
 plt.show()
 ```
-![File](file.png)
+![File](../images/file.png)
 
 获取文件fft特征并保存到文件
 ```python
@@ -112,7 +112,7 @@ plt.title('Mel spectrogram')
 plt.tight_layout()
 plt.show()
 ```
-![Melspectrogram](melspectrogram.png)
+![Melspectrogram](../images/melspectrogram.png)
 
 MFCC
 ```python
@@ -131,5 +131,5 @@ plt.title('MFCC')
 plt.tight_layout()
 plt.show()
 ```
-![Mfcc](mfcc.png)
+![Mfcc](../images/mfcc.png)
 AFTE 特征
