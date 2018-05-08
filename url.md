@@ -1,4 +1,7 @@
-语音处理，声源定位中的一些基本特征   
+理解时域、频域、FFT和加窗，加深对信号的认识   
+http://www.sohu.com/a/132668656_468626
+
+语音处理，声源定位中的一些基本特征  
 https://github.com/SusannaWull/speechFeatures   
 
 python_speech_features   
