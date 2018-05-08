@@ -73,9 +73,8 @@ np.load(filename) #加载fft特征文件
 ```
 
 梅尔倒频系数 MFCC 特征
->pip install scikits.talkbox
->
->*安装失败*   
+:pip install scikits.talkbox
+:*安装失败* 
 
 ```python
 from scikits.talkbox.features import mfcc
