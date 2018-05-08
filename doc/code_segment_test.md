@@ -30,7 +30,7 @@ plt.plot(np.arange(start=start, stop=stop), signal[start:stop])
 #plt.savefig(filename, dpi=dpi) #保存图片
 plt.show()
 ```
-![wav_plot](../images/wav_plot.png)
+![wav_plot](/images/wav_plot.png)
    
 稍加处理   
 ![wav_plot_200](../images/wav_plot_200.png)
