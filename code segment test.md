@@ -30,6 +30,8 @@ plt.plot(np.arange(start=start, stop=stop), signal[start:stop])
 #plt.savefig(filename, dpi=dpi) #保存图片
 plt.show()
 ```
+![File](wav_plot.png)
+
 保存声音波形图片
 ```python
 gcf = plt.gcf()
@@ -50,7 +52,7 @@ if signal.ndim > 1:
 plt.specgram(signal, Fs=rate, xextent=(0, 30)) #前30秒
 plt.show()
 ```
->![File](file.png)
+![File](file.png)
 
 获取文件fft特征并保存到文件
 ```python
