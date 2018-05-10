@@ -128,6 +128,7 @@ rate, signal_data = scipy.io.wavfile.read(filename)
 if signal_data.ndim > 1:
     signal = signal_data[:,0]
 mfccs = librosa.feature.mfcc(y=signal_data, sr=rate, n_mfcc=40)
+
 plt.figure(figsize=(10, 4))
 librosa.display.specshow(mfccs, x_axis='time')
 plt.colorbar()
