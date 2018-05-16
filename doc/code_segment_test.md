@@ -30,10 +30,10 @@ plt.plot(np.arange(start=start, stop=stop), signal[start:stop])
 #plt.savefig(filename, dpi=dpi) #保存图片
 plt.show()
 ```
-![wav_plot](../images/wav_plot.png)
+![wav_plot](/images/wav_plot.png)
    
 稍加处理   
-![wav_plot_200](../images/wav_plot_200.png)
+![wav_plot_200](/images/wav_plot_200.png)
 
 
 保存声音波形图片
@@ -44,6 +44,7 @@ gcf.set_size_inches(width / dpi, height / dpi)
 ```
 
 可以通过以下代码获取声谱图
+
 ```python
 import scipy
 import matplotlib.pyplot as plt
@@ -72,9 +73,10 @@ np.load(filename) #加载fft特征文件
 ```
 
 梅尔倒频系数 MFCC 特征
->pip install scikits.talkbox
->
->*安装失败*
+
+> pip install scikits.talkbox   
+> *安装失败* 
+
 ```python
 from scikits.talkbox.features import mfcc
 
@@ -86,7 +88,9 @@ np.save(data_filename, ceps)
 print(" Written %s" % data_filename)
 ```
 转战librosa
->pip install librosa
+
+> pip install librosa
+
 ```python
 import librosa
 
@@ -112,7 +116,7 @@ plt.title('Mel spectrogram')
 plt.tight_layout()
 plt.show()
 ```
-![Melspectrogram](../images/melspectrogram.png)
+![Melspectrogram](/images/melspectrogram.png)
 
 MFCC
 ```python
@@ -124,6 +128,7 @@ rate, signal_data = scipy.io.wavfile.read(filename)
 if signal_data.ndim > 1:
     signal = signal_data[:,0]
 mfccs = librosa.feature.mfcc(y=signal_data, sr=rate, n_mfcc=40)
+
 plt.figure(figsize=(10, 4))
 librosa.display.specshow(mfccs, x_axis='time')
 plt.colorbar()
@@ -131,5 +136,5 @@ plt.title('MFCC')
 plt.tight_layout()
 plt.show()
 ```
-![Mfcc](../images/mfcc.png)
+![Mfcc](/images/mfcc.png)
 AFTE 特征

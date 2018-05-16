@@ -1,8 +1,8 @@
 # huichangzhai.github.io
 *仅供个人使用*
 
-[url](https://github.com/HuiChangZhai/huichangzhai.github.io/blob/master/doc/url.md)
+[url](doc/url)
 
-[PythonAudioListenerDemo](https://github.com/HuiChangZhai/huichangzhai.github.io/blob/master/doc/PythonAudioListenerDemo.md)
+[PythonAudioListenerDemo](doc/PythonAudioListenerDemo)
 
-[code segment test](https://github.com/HuiChangZhai/huichangzhai.github.io/blob/master/doc/code_segment_test.md)
+[code segment test](doc/code_segment_test)
