@@ -1,4 +1,5 @@
-*Connect And Auth
+# Connect And Auth
+```
 var socket = io.connect(url, {
   query: { token: 'token' }
 });
@@ -9,5 +10,15 @@ socket.on('connect', () => {
   }).on('unauthorized', () => {
     console.log("unauthorized");
   });
-  socket.emit('authenticate', $('#send-from').val(), "client_" + Date.now() + "_" + Math.random().toString().substring(2));
+  socket.emit('authenticate', authid, clientid);
 });
+```
+# Disconnect
+```
+socket.on('disconnect', (reason) => {
+  console.log(`Disconnected. Reason: ${reason}`);
+});
+```
+
+# Send Message
+socket.emit('chat message', { to: to, message: msg });
