@@ -21,4 +21,12 @@ socket.on('disconnect', (reason) => {
 ```
 
 # Send Message
+```python
 socket.emit('chat message', { to: to, message: msg });
+```
+# Send Room Message
+```python
+socket.emit('room message', (data) => {
+    self.io.to(data.roomid).emit('room message', data.message);
+});
+```
