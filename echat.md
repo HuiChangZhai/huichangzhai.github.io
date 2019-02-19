@@ -1,5 +1,5 @@
 # Connect And Auth
-```
+```python
 var socket = io.connect(url, {
   query: { token: 'token' }
 });
@@ -14,7 +14,7 @@ socket.on('connect', () => {
 });
 ```
 # Disconnect
-```
+```python
 socket.on('disconnect', (reason) => {
   console.log(`Disconnected. Reason: ${reason}`);
 });
